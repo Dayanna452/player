@@ -104,6 +104,10 @@ export const PublicityContainer: React.FC<PublicityContainerProps> = ({
 
 const Container = styled.div`
   height: 100%;
+  margin-bottom: 0px;
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
+    margin-bottom: 70px;
+  }
   @media (min-width: ${({ theme }) => theme.breakpoints.desktop}) {
     min-height: 18vh;
   }

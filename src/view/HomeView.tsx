@@ -11,7 +11,7 @@ export const HomeView = () => {
   console.log('dataSongs', dataSongs)
 
   return (
-    <Grid container direction='column' sx={{ gap: 50 }}>
+    <Grid container direction='column'>
       <PublicityContainer music={oneSong ? oneSong : musicExample} />
       <SongsContainer list={dataSongs} />
     </Grid>
