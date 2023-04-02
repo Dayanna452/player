@@ -9,7 +9,7 @@ interface SongsContainerProps {
 
 export const SongsContainer: React.FC<SongsContainerProps> = ({ list }) => {
   return (
-    <Grid container sx={{ gap: 20 }}>
+    <Grid container>
       <Grid item xs='12'>
         <Text
           fontSize={22}
