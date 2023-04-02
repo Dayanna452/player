@@ -108,6 +108,9 @@ const Container = styled.div`
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
     margin-bottom: 70px;
   }
+  @media (min-width: ${({ theme }) => theme.breakpoints.laptopS}) {
+    margin-bottom: 80px;
+  }
   @media (min-width: ${({ theme }) => theme.breakpoints.desktop}) {
     min-height: 18vh;
   }
