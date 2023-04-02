@@ -1,0 +1,41 @@
+.rhap_container {
+  padding: 0px !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.rhap_container .rhap_progress-section {
+  display: none;
+}
+
+.rhap_stacked .rhap_controls-section .rhap_main-controls > button {
+  color: white;
+}
+
+.rhap_stacked .rhap_controls-section .rhap_additional-controls {
+  display: none;
+}
+
+.rhap_volume-controls .rhap_volume-container {
+  flex-direction: row-reverse;
+  gap: 8px;
+}
+
+.rhap_volume-controls .rhap_volume-container > button {
+  color: white;
+}
+
+.rhap_volume-controls
+  .rhap_volume-container
+  .rhap_volume-bar-area
+  .rhap_volume-bar {
+  background-color: white;
+}
+
+.rhap_volume-controls
+  .rhap_volume-container
+  .rhap_volume-bar-area
+  .rhap_volume-bar
+  .rhap_volume-indicator {
+  background-color: white;
+}
